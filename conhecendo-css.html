@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do CSS</title>
+    <style>
+        /* Código CSS */
+
+        /*
+            <seletor> {
+                propriedade: valor;
+                propriedade: valor;
+            }
+
+            Formas de uso:
+            1) Inline = vai direto no elemento
+            2) Tag <style> vai direto no <html>
+            3) Dentro de arquivo separado
+
+        */
+        /*
+        p {
+            color:blue;
+            font-size: 24px;
+            font-style: italic;
+        }
+*/
+    </style>
+<!-- stylesheet = folha de estilos  -->
+<!-- rel = relacionamento -->
+<link rel="stylesheet" href="./css/styles.css">
+<!-- rel=icon adiciona um icone ao link -->
+<link rel=icon href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/red-heart_2764-fe0f.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Inline - atributo style = estilização local -->
+    <p style = "color: red; font-size: 32px;">Oi eu estou estilizado localmente.</p>
+    <p style = "color: green; font-weight: bold;">Nova estilização.</p>
+    <!-- O "p" recebe as propriedades do seletor no <head> -->
+    <p>Oi eu fui estilizado pela tag style.</p> 
+    <p>Oi eu fui estilizado pela tag style.</p>
+    <!-- O "p" recebe as outras propriedades do seletor, mas apenas a cor é substituída -->
+    <p style = "color:orange">Oi eu fui estilizado pela tag style.</p>
+
+<h1 class="cabecalho">Aprendendo CSS</h1>
+<h2 id="meu-id">CSS é muito legal</h2>
+<h3 class="cabecalho">Curti demais</h3>
+<div class="quadrado"></div>
+<img class="banner" src="./img/fox-g34619f42c_1920.jpg"/>
+</body>
+</html>

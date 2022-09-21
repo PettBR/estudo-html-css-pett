@@ -1,0 +1,50 @@
+/*
+Para usar o css devemos linkar ele ao HTML de destino
+*/
+
+
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif; /* fallback */
+    margin-left: 10px;
+}
+h1, h2, h3{
+color: white
+}
+/*Uso o id quando quero estilizar um elemento específico id → #    */
+#meu-id{
+    font-weight: 100;
+}
+/* Posso aplicar a class em vários elementos diferentes. */
+.cabecalho{
+    color:crimson;
+    text-decoration: wavy;
+    font-weight: 900;
+}
+
+.quadrado{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 16px;
+}
+
+.banner{
+    width: 100%;
+    border-radius: 16px;
+    
+}
+
+/*
+Tipos de SELETOR BÁSICO
+1) Por elemento
+2) Por id (#) → estilização única
+3) Por class (.) → estilização p/ varios
+
