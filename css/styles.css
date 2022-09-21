@@ -18,8 +18,10 @@ body{
 h1, h2, h3{
 color: white
 }
+
 /*Uso o id quando quero estilizar um elemento específico id → #    */
-#meu-id{
+
+#meu-h2{
     font-weight: 100;
 }
 /* Posso aplicar a class em vários elementos diferentes. */
@@ -39,7 +41,7 @@ color: white
 .banner{
     width: 100%;
     border-radius: 16px;
-    
+
 }
 
 /*
