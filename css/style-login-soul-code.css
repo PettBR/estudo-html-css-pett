@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgba(174, 174, 211, 0.527);
+    padding: 0;
+    margin: 10;
+}
+
+h1,h4{
+    color: rgb(74, 122, 110);
+}
+
+.campoLogin{
+        /* Espaçamento Interno */
+        padding: 5px;
+        /* Espaçamento Externo */
+        margin: 1px;
+        border-style: outset;
+        border-color: lightslategrey;
+        border-width: 2px;
+        width: 25%;
+}
+hr{
+    
+    margin: 5px;
+}
+.button{
+    color:rgb(74, 122, 80);
+    font-weight: bold;
+    background-color: lavender;
+    width: 100px;
+    height: 30px;
+    border-color: rgb(177, 120, 230);
+}
+.campoPreencher{
+    height: 20px;;
+    width: 98%;
+}
+.checkKeepLogin{
+    font-size: medium;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(89, 100, 158);
+}
+
+table{
+background-color: rgb(173, 238, 208);
+border: 6px 
+}
+th{
+    padding: 6px;
+    border: 1px transparent;
+    background-color: #89CFE5;
+}
+td{
+    text-align: center;
+    padding: 6px;
+}
+
+.footing{
+    margin-top: 30px;
+}

@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login da "SoulCode"</title>
+    <link rel="stylesheet" href="/css/style-login-soul-code.css">
+    <script src="https://kit.fontawesome.com/dd6ef9c2cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <img src="./img/soulcode-logo.png">
     <br />
     <h1>Bem vindo! Entre com seu e-mail e senha.</h1>
     <form>
-        <div>
+        <div class="campoLogin">
             <label for="campoEmail">Email</label><br/>
-            <input id="campoEmail" name="campoEmail" type="email" placeholder="email@exemplo.com" required /><br />
+            <input class="campoPreencher" id="campoEmail" name="campoEmail" type="email" placeholder="email@exemplo.com" required /><br />
         </div>
-        <div>
+        <div class="campoLogin">
             <label for="campoSenha">Senha</label><br/>
-            <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua Senha" minlength="8" required /> <br />
+            <input class="campoPreencher" id="campoSenha" name="campoSenha" type="password" placeholder="Sua Senha" minlength="8" required /> <br />
         </div>
         <hr>
-        <button type="submit">Login</button> <!-- Submeter (Submit)-->
-        <div>
+        <button class="button" type="submit">Login</button> <!-- Submeter (Submit)-->
+        <div class="checkKeepLogin">
             <input id="checkKeepLogin" type="checkbox" name="checkKeepLogin"/>
             <label for="checkKeepLogin">Continuar Conectado?</label>
             <br/>
         </div>
     </form>
 <br />
+<div style="overflow-x:auto;">
     <table border="1" cellpadding="3" style="border-collapse: collapse;" align="left"> 
         <thead><!-- thead = cabeçalho da tabela -->
             <tr><!-- Table Row -->
@@ -35,14 +38,14 @@
                     <!-- colspan é a duração da tabela -->
                     <th colspan="8">Tabela de informações dos Cursos SoulCode</th>
                 </tr>
-                <th>Bootcamps</th>
-                <th>Custo</th>
-                <th>Prazo de Inscrição</th>
-                <th>Início do Curso</th>
-                <th>Duração</th>
-                <th>Horário de Aula</th>
-                <th>Formato de Aula</th>
-                <th>Idioma</th>
+                <th><i class="fa-solid fa-code"></i> Bootcamps</th>
+                <th><i class="fa-regular fa-money-bill-1"></i> Custo</th>
+                <th><i class="fa-regular fa-calendar"></i> Prazo de Inscrição</th>
+                <th><i class="fa-regular fa-circle-play"></i> Início do Curso</th>
+                <th><i class="fa-solid fa-ruler"></i> Duração</th>
+                <th><i class="fa-regular fa-clock"></i> Horário de Aula</th>
+                <th><i class="fa-solid fa-computer"></i> Formato de Aula</th>
+                <th><i class="fa-solid fa-language"></i> Idioma</th>
             </tr>
         </thead>
         <tbody>
@@ -100,19 +103,10 @@
             </tr>
         </tbody>
     </table>
+</div>
     <div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <h4>Para Maiores informações:</h4>
-    <a href="https://soulcodeacademy.org/">Clique aqui para mais informações</a>
+    <h4  class="footing">Para Maiores informações:</h4>
+    <a class="linkInfo" href="https://soulcodeacademy.org/">Clique aqui para mais informações</a>
     </div>
 </body>
 </html>

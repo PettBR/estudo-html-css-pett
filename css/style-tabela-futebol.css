@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: darkgreen;
+    margin: 35px;
+    margin-bottom: 40px;
+    color: purple;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://images.alphacoders.com/510/thumb-1920-510026.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    table-layout: auto;
+    width: fit-content;
+    margin: auto;
+    background: rgb(117, 77, 182,0.5);
+    border-inline-start-color: blue blueviolet;
+    border-inline-start-width: 6px;
+    border-inline-end-width: 6px;
+    border-inline-end-color: blue blueviolet;
+    border-width: 5px;
+
+}
+tr{
+    color: whitesmoke;
+}
+
+th{
+    text-align: center;
+    border: 1px solid;
+    font-weight: 600;
+}
+td{
+    text-align: center;
+    border: 1px solid;
+    font-weight: 600;
+}
+img{
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+divDaTabela{
+    margin:auto
+}
