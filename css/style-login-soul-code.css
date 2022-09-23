@@ -30,7 +30,15 @@ hr{
     width: 100px;
     height: 30px;
     border-color: rgb(177, 120, 230);
+    border-radius: 6px;
+    cursor: pointer;
 }
+.button:hover{
+    background-color: rgb(231, 154, 224);
+    }
+    
+
+
 .campoPreencher{
     height: 20px;;
     width: 98%;
