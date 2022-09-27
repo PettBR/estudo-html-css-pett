@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-27-09-2022</title>
+    <link rel="stylesheet" href="css/aula-27-09-2022.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class ="navbar-brand">
+                <img src="img/soulcode-logo.png" alt="Brand"/>
+                <span class="navbar-burger" onclick="ativaNavbar()">
+                    &#8801;
+                </span>
+            </div>
+            <div class="navbar-menu">
+                <a href="#" class="navbar-link">Início</a>
+                <a href="#" class="navbar-link">Bootcamps</a>
+                <a href="#" class="navbar-link">Online</a>
+                <a href="#" class="navbar-link">Ajuda</a>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        function ativaNavbar() {
+            console.log("Oieeeee");
+            // JS vai varrer o documento HTML em busca de um elemento com classe .navbar-menu
+            // toggle = coloca se não tiver e remove se já tiver.
+            document.querySelector(".navbar-menu").classList.toggle("ativa");
+        }
+    </script>
+
+</body>
+</html>
