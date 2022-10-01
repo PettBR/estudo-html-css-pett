@@ -7,8 +7,8 @@ h1{
     font-weight: bold;
     text-decoration-line: underline;
     text-decoration-color: darkgreen;
-    margin: 35px;
-    margin-bottom: 40px;
+    margin: 15px;
+    margin-bottom: 20px;
     color: purple;
 }
 
@@ -24,6 +24,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin-bottom: 4vh;
 }
 .my-table{
     table-layout: auto;
@@ -95,3 +96,5 @@ img{
     display: flex;
     margin:auto;
 }
+
+
