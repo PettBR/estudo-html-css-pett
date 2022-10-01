@@ -1,4 +1,6 @@
 h1{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
@@ -8,8 +10,12 @@ h1{
     margin: 35px;
     margin-bottom: 40px;
     color: purple;
-    
 }
+
+h1:hover{
+    cursor: default;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -19,7 +25,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-table{
+.my-table{
     table-layout: auto;
     width: fit-content;
     margin: auto;
@@ -29,18 +35,52 @@ table{
     border-inline-end-width: 6px;
     border-inline-end-color: blue blueviolet;
     border-width: 5px;
-
-}
-tr{
-    color: whitesmoke;
+    cursor: cell;
 }
 
-th{
+.my-table thead tr:hover{
+    background-color: rgba(115, 85, 247, 0.753);
+}
+
+.my-table tr{
+    color: rgba(245, 245, 245, 0.92);
+}
+
+.my-table th:hover{
+    background-color: rgba(61, 158, 52, 0.753);
+    color: rgb(179, 194, 194);
+}
+
+.libertadores:hover{
+    background-color: rgba(13, 189, 42, 0.753);
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.copa-sul-americana:hover{
+    background-color: rgba(214, 152, 16, 0.753);
+    color: rgb(100, 50, 1);
+    text-decoration: underline;
+}
+
+.Not-Applicable:hover{
+    background-color: rgba(37, 133, 139, 0.753);
+    color: rgb(37, 255, 190);
+    text-decoration: underline;
+}
+
+.Rebaixamento:hover{
+    background-color: rgba(165, 42, 42, 0.753);
+    color: rgb(66, 0, 0);
+    text-decoration: underline;
+}
+
+.my-table th{
     text-align: center;
     border: 1px solid;
     font-weight: 600;
 }
-td{
+.my-table td{
     text-align: center;
     border: 1px solid;
     font-weight: 600;
@@ -49,6 +89,7 @@ img{
     vertical-align: bottom;
     margin-right: 5px;
 }
-divDaTabela{
-    margin:auto
+.divDaTabela{
+    display: flex;
+    margin:auto;
 }

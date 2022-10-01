@@ -1,3 +1,7 @@
+:root {
+    --azul: #0f637a;
+    --amarelo: #ffd900;
+}
 
 body{
     background-color: rgba(174, 174, 211, 0.527);
@@ -13,14 +17,15 @@ h1,h4{
         /* Espaçamento Interno */
         padding: 5px;
         /* Espaçamento Externo */
-        margin: 1px;
+        margin: 2px;
         border-style: outset;
         border-color: lightslategrey;
         border-width: 2px;
+        border-radius: 8px;
         width: 25%;
 }
-hr{
-    
+
+hr{  
     margin: 5px;
 }
 .button{
@@ -34,10 +39,10 @@ hr{
     cursor: pointer;
 }
 .button:hover{
-    background-color: rgb(231, 154, 224);
+    background-color: rgba(231, 154, 225, 0.832);
+    font-size: medium;
+    text-decoration: underline;
     }
-    
-
 
 .campoPreencher{
     height: 20px;;
@@ -50,20 +55,66 @@ hr{
     color: rgb(89, 100, 158);
 }
 
-table{
-background-color: rgb(173, 238, 208);
-border: 6px 
+.my-table{
+    background-color: rgb(173, 238, 208);
+    border: 6px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    border-color: var(--azul);
 }
-th{
+
+.my-table tr:nth-child(even){
+    background-color: #f2f2f2;;
+}
+
+.my-table tr:hover{
+    background-color: rgba(247, 85, 179, 0.653);
+}
+
+.my-table th{
     padding: 6px;
     border: 1px transparent;
-    background-color: #89CFE5;
+    background-color: var(--azul);
+    color: var(--amarelo);
 }
-td{
+
+.table-top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.my-table td:hover{
+    font-style: italic;
+}
+
+.my-table td{
     text-align: center;
     padding: 6px;
+    display: table-cell;
+    border-inline-color:  transparent;
 }
 
 .footing{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0px 8px 0px;
+}
+
+.footing a{
+    margin:  5px;
+    background-color: var(--amarelo);
+    color: var(--azul);
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.footing .link-info{
+    border: 8px;
+}
+
+.checkKeepLogin:hover{
+    text-decoration: underline;
+    color: rgb(89, 100, 158, 0.65);
 }
